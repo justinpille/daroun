@@ -15,9 +15,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build",
-    "eslintConfig": {
-      "extends": "react-app"
-    }
-  }
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "homepage": "https://justinpille.github.io/daroun"
 }
